@@ -119,7 +119,6 @@ for c in poli +'\n':
 from time import sleep 
 num=input ('\033[1;092m》Enter Phone Number : ')
 print ()
-print ()
 gt=0
 count=(int(input ('\033[1;092m》Enter Number Of Messeges : ')))
 while gt<count:
@@ -172,4 +171,4 @@ while gt<count:
         gt+=1
        # print ('\033[1;96m')
         print ('\033[1;92m*'*60)
-        print (f'\033[1;96mDon Send {gt} SMS')
+        print (f'\033[1;96mDon Sent {gt} SMS')
