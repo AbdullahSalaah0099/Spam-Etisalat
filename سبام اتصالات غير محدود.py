@@ -1,16 +1,23 @@
 import requests ,sys,pyfiglet 
 from time import sleep 
 import time
-
+print ('\033[1;95mWelcome')
+sleep (1)
+print ()
+print ('\033[1;92mclick on this link to get password👇')
+#sleep (0.1)
+print ()
+link1="\033[1;93m https://miklpro.com/RRvTHbO"
+print (link)
 
 password=input ('\033[1;92m》Enter Password Script :  \033[1;96m')
 sleep (1)
 
-'''rrr=requests.get('https://pastelink.net/vsngvbe8').text
+rrr=requests.get('https://pastelink.net/ll6nofsy').text
 soup=BS(rrr,'html.parser')
-lxc=(soup.find('div',{'class':'body-display'})).text'''
+lxc=(soup.find('div',{'class':'body-display'})).text
 
-if password =="Abdullah31000":
+if password in rrr:
     print ()
     print ('\033[1;96m》True Password《')
     sleep (1)
