@@ -18,7 +18,7 @@ rrr=requests.get('https://pastelink.net/ll6nofsy').text
 soup=BS(rrr,'html.parser')
 lxc=(soup.find('div',{'class':'body-display'})).text
 
-if password in rrr:
+if password in lxc:
     print ()
     print ('\033[1;96m》True Password《')
     sleep (1)
