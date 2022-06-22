@@ -1,4 +1,5 @@
-import requests ,sys,pyfiglet 
+import requests ,sys,pyfiglet
+from bs4 import BeautifulSoup as BS 
 from time import sleep 
 import time
 print ('\033[1;95mWelcome')
