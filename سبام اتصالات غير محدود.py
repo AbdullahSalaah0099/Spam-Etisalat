@@ -87,7 +87,7 @@ h="""
 for I in h+'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
-	time.sleep (00.0030)
+	time.sleep (00.0010)
 print ()
 i='''\033[1;092m Telegram channel : 
 
